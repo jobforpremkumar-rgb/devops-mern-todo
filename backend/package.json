@@ -3,12 +3,16 @@
     "cors": "^2.8.5",
     "dotenv": "^17.2.1",
     "express": "^5.1.0",
-    "jest": "^30.0.5",
     "mongoose": "^8.17.1",
-    "supertest": "^7.1.4"
+    "node": "^24.16.0",
+    "run": "^1.5.0"
   },
   "scripts": {
-  "test": "jest",
-   "prod": "node index.js"
+    "test": "jest",
+    "prod": "node index.js"
+  },
+  "devDependencies": {
+    "jest": "^30.4.2",
+    "supertest": "^7.2.2"
   }
 }
